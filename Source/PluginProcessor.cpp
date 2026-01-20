@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
   ==============================================================================
 
@@ -262,3 +263,5 @@ juce::AudioProcessorValueTreeState::ParameterLayout LightsparkSynthRealAudioProc
 
     return { params.begin(), params.end()};
 }
+=======
+>>>>>>> 2e3534e223be722541b5208445050eb51916468b
