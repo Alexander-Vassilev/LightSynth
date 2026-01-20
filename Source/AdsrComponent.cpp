@@ -14,9 +14,9 @@ AdsrComponent::AdsrComponent(juce::AudioProcessorValueTreeState& apvts) {
     using SliderAttachment = juce::AudioProcessorValueTreeState::SliderAttachment;
 
     attackAttachment = std::make_unique<SliderAttachment>(apvts, "ATTACK", attackSlider);
-    decayAttachment = std::make_unique<SliderAttachment>(apvts, "DECAY", attackSlider);
-    sustainAttachment = std::make_unique<SliderAttachment>(apvts, "SUSTAIN", attackSlider);
-    releaseAttachment = std::make_unique<SliderAttachment>(apvts, "RELEASE", attackSlider);
+    decayAttachment = std::make_unique<SliderAttachment>(apvts, "DECAY", decaySlider);
+    sustainAttachment = std::make_unique<SliderAttachment>(apvts, "SUSTAIN", sustainSlider);
+    releaseAttachment = std::make_unique<SliderAttachment>(apvts, "RELEASE", releaseSlider);
 
     setSliderParams(attackSlider);
     setSliderParams(decaySlider);
